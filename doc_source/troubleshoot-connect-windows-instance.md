@@ -9,7 +9,7 @@ The following are possible problems you may have and error messages you may see 
 + [Unable to Remotely Log On to an Instance with a User Account That Is Not an Administrator](#remote-failure)
 + [Troubleshooting Remote Desktop Issues Using AWS Systems Manager](#Troubleshooting-Remote-Desktop-Connection-issues-using-AWS-Systems-Manager)
 
-## Remote Desktop Can't onnect to the Remote Computer<a name="rdp-issues"></a>
+## Remote Desktop Can't connect to the Remote Computer<a name="rdp-issues"></a>
 
 Try the following to resolve issues related to connecting to your instance:
 + Verify that you're using the correct public DNS hostname\. \(In the Amazon EC2 console, select the instance and check **Public DNS \(IPv4\)** in the details pane\.\) If your instance is in a VPC and you do not see a public DNS name, you must enable DNS hostnames\. For more information, see [Using DNS with Your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-dns.html) in the *Amazon VPC User Guide*\.
